@@ -1,6 +1,6 @@
 # RPG Flightmare Unity: Direct Learning of Home Vector Direction for Insect-inspired Robot Navigation
 
-
+![alt text](https://github.com/mfirlefyn/flightmare_unity/blob/master/Images/scene_abstract.png "scene")
 
 ## Getting to Know the Unity Renderer
 
