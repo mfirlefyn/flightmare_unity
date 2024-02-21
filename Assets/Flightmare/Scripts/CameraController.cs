@@ -520,7 +520,7 @@ namespace RPGFlightmare
           // make the quad move back towards the nest location
           Vector3 nest_position = new Vector3(538.0f, 317.0f, 573.0f);
           // the nest location is randomly perturbed to simulate the effect of the PI drift
-          Vector3 perturbed_nest_position = new Vector3(nest_position.x+1.3516f,nest_position.y,nest_position.z+5.2642f);
+          Vector3 perturbed_nest_position = new Vector3(nest_position.x+xPerturbNest,nest_position.y,nest_position.z+zPerturbNest);
           Vector3 quad_position = main_vehicle.transform.position;
           float distance_to_nest = Mathf.Sqrt(Mathf.Pow(quad_position.x-perturbed_nest_position.x,2)+Mathf.Pow(quad_position.z-perturbed_nest_position.z,2));
           float normalMoveSpeed = 10;
